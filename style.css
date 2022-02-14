@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.5vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h2{
+    color: rgb(1, 13, 53);
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+p{
+    color: rgb(253, 253, 253);
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+.background-index, #background-game{
+    background-image: linear-gradient(rgb(133, 241, 200),  rgb(78, 0, 74),rgb(133, 241, 200));
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+button{
+    border-radius: 0.5rem;
+    height: 3rem;
+    background-color: rgb(255, 252, 82);
+    color: rgb(49, 48, 38);
+    font-size: 2vw;
+    cursor: pointer;
+    margin: 1vw;
+}
+ button:hover{
+    background-color: rgb(5, 209, 148);
+    color: rgb(0, 0, 92);
+    box-shadow: 0 2px 12px rgb(255, 160, 160);
+    
+ } 
+#add-word{
+    margin-bottom: 6vw;
+}
+
+#word{
+    margin-top: 1vw;
+    margin-bottom: 2rem;
+    height: 8vw;
+    width: 60vw;
+    resize: none;
+    border-radius: 1rem;
+    font-size: 4vw;
+    text-align: center;
+    font-size: 6vw;
+}
+
+#return-index:hover,#restart:hover{
+    box-shadow: 0 2px 12px rgb(82, 75, 75);
+}
+#title-index{
+    margin-top: 1vw;
+    color: rgb(1, 13, 53);
+    font-size: 8vw;
+}
+#title-game{
+    
+    font-size: 6vw;
+    color:rgb(255, 255, 255);
+}
+
+#draw-game{
+    width: 150vh;
+    
+} 
+
+@media only screen and (max-width: 900px)  {
+    *{
+        width: 100;
+    }
+    #title-index{
+        font-size: 18vw;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+    h2{
+        font-size: 8vw;
+        margin-top: 12vw;
+        margin-bottom: 9vw;
+    }
+    p{
+        margin-top: 6vw;
+        margin-bottom: 9vw;
+        font-size: 4vw;
+        color:white;
+    }
+    #word{
+        height: 7vh;
+        width: 42vh;
+    }
+    button{
+    height: 12vw;
+    margin: 20vw;
+    font-size: 5vw;
+    }
+    #title-game{
+     font-size: 10vw;
+    }
+    #draw-game{
+     width: 50vh;
+    } 
+    .background-index{
+         background-attachment: fixed; 
+    }
+    #restart{
+        margin-bottom: 30vw;
+    }
+    #return-index{
+        margin-bottom: 2vw;
+    }
+    .first-view{
+        margin-top: 10vh;
+    }
+}
+@media only screen and (max-width: 600px)  {
+    h2{
+        margin-top: 12vw;
+        margin-bottom: 9vw;
+    }
+    p{
+        margin-top: 6vw;
+        margin-bottom: 9vw;
+    }
+    #word{
+        height: 7vh;
+        width: 42vh;
+    }
+    #title-game{
+     font-size: 10vw;
+    }
+    #draw-game{
+     width: 50vh;
+    } 
+    #title-game{
+        margin-top: 1vw;
+    }
+    #restart{
+        margin-bottom: 30vw;
+    }
+    #return-index{
+        margin-bottom: 2vw;
+    }
+    .first-view{
+        margin-top: 10vh;
+    }
+    #add-word{
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+    .word{
+        margin-bottom: 1vw;
+    }
+    #first-view{
+        margin-top: 1vw;
+    }
+
+}
+
