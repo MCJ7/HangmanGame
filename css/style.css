@@ -16,12 +16,12 @@ h2{
     margin-bottom: 2vw;
 }
 p{
-    color: rgb(253, 253, 253);
+    color: rgb(1, 13, 53);
     margin-top: 1vw;
     font-size: 2vw;
 }
 .background-index, #background-game{
-    background-image: linear-gradient(rgb(133, 241, 200),  rgb(78, 0, 74),rgb(133, 241, 200));
+    background-image: linear-gradient(#70d6ff,  #ff70a6,#ff9770);
    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -72,7 +72,7 @@ button{
 #title-game{
     
     font-size: 6vw;
-    color:rgb(255, 255, 255);
+    color:rgb(1, 13, 53);
 }
 
 #draw-game{
